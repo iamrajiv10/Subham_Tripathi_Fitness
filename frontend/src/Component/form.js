@@ -1,5 +1,3 @@
-//Pic,   age,   height,    goal,    name,    weight,     sex,     currentstats
-//Pic,   age,   height,    goal,    name,    weight,     sex,     currentstats
 import './form.css'
 import { Button } from 'react-bootstrap'
 
@@ -18,8 +16,8 @@ function Details() {
     const [Currentstats, setCurrentstats] = useState("");
 
     function Saveform() {
-        console.warn({ Name, Age, Height, Gender, Weight, Currentstats });
-        let data = { Name, Age, Height, Gender, Weight, Currentstats }
+        console.warn({ Name, Age, Height, Gender, Weight,Goal, Currentstats });
+        let data = { Name, Age, Height, Gender, Weight, Goal, Currentstats }
         fetch("http://localhost:4000/userData", {
             method: 'POST',
             headers: {
@@ -29,8 +27,10 @@ function Details() {
             body: JSON.stringify(data)
         }).then((result) => {
             console.warn("result", result);
+            alert("Form submited successfully")
+        }).catch((err)=>{
+            alert(err.message)
         })
-
         setName("");
         setAge("");
         setHeight("");
