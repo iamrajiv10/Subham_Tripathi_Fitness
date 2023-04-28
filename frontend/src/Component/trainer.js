@@ -18,11 +18,11 @@ function Runner(){
 
     return(
         <div>
-            <div>
+            <div className='navv'>
             <Navibar/>
             </div>
         <div className="userdata">
-            <h1>I am the owner of this website</h1>
+            <h1>Clients Information</h1>
             <Table striped bordered hover variant="dark">
                 <thead>
                 <tr>

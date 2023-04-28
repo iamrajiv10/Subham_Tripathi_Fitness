@@ -12,8 +12,8 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 import Footer from "./footer";
-import home from './image/home.jpg'
-import home1 from './image/home-bg-1.jpg'
+import home from './image/stf3.jpg'
+import home1 from './image/stf1.jpg'
 import home2 from './image/home-bg-2.jpg'
 import home3 from './image/home-bg-3.jpg'
 
