@@ -42,13 +42,7 @@ function About() {
           </div>
         </div>
         <br />
-        <div className="divider">
-          <img
-            className="hono"
-            src="https://clipground.com/images/dumb-bells-clipart-4.jpg"
-         alt="#" />
-        </div>
-        <br />
+        <hr style={{borderRedius:'5px'}}/>
         <u>
           <h1>Services</h1>
         </u>
@@ -88,14 +82,15 @@ function About() {
           </div>
         </div>
         <br />
-        <div className="divider">
+        <hr/>
+        {/* <div className="divider">
           <img
             className="hono"
             src="https://www.freepnglogos.com/uploads/dumbbell/dumbbell-barbell-clip-art-etsy-23.jpg"
          alt="#" />
-        </div>
+        </div> */}
         <br />
-        <div className="social">
+        {/* <div className="social">
           <u>
             <h1>Our Social Media Platforms</h1>
           </u>
@@ -141,26 +136,25 @@ function About() {
               </h2>
             </div>
           </div>
-        </div>
+        </div> */}
         <br />
-        <div className="divider">
+        {/* <div className="divider">
           <img
             className="hono"
             src="https://www.freepnglogos.com/uploads/dumbbell/dumbbell-barbell-clip-art-etsy-23.jpg" alt=""
           />
-        </div>
-        <br />
+        </div> */}
         <div className="pricing">
           <img src={priceimg} height="900px" width="90%" alt=""></img>
         </div>
         <br />
-        <div className="divider">
+        {/* <div className="divider">
           <img
             className="hono"
             src="https://www.freepnglogos.com/uploads/dumbbell/dumbbell-barbell-clip-art-etsy-23.jpg" alt=""
           />
-        </div>
-        <br />
+        </div> */}
+        <br /><hr/>
         <div className="socialvid">
           <iframe
             width="500"
@@ -181,6 +175,7 @@ function About() {
             allowfullscreen
           ></iframe>
         </div>
+        <br/><hr/>
         <Feed /> <br />
         <Footer />
       </div>

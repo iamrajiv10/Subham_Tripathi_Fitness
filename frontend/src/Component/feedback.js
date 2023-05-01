@@ -24,10 +24,10 @@ function Feedb() {
 
 
     return (
-        <div>
+        <div >
+          <h1>What our Clients say</h1>
             <div className="feedback">
                 <div className="leftfeed" >
-                  <h1></h1>
                 <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -47,7 +47,7 @@ function Feedb() {
           className="parallax-bg"
           style={{
             "background-image":
-              "url(https://swiperjs.com/demos/images/nature-1.jpg)",
+              "url(https://c4.wallpaperflare.com/wallpaper/199/924/33/muscle-muscle-bodybuilding-press-wallpaper-preview.jpg)",
           }}
           data-swiper-parallax="-23%"
         ></div>

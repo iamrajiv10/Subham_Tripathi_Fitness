@@ -46,7 +46,6 @@ function Home() {
                 </Swiper>
             </div>
             <About/>
-            <Footer />
             
         </div>
     )

@@ -3,8 +3,8 @@
     /* background-image: url(https://www.shutterstock.com/image-photo/cropped-view-group-people-training-260nw-2117363045.jpg);
     background-repeat: repeat-y; */
 }
-.allabout{
-    padding: 30px;
+.allabout h1{
+    padding-bottom: 30px;
 }
 a:link {
     text-decoration: none;
