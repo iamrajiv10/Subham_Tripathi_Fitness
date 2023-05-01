@@ -37,7 +37,7 @@ function About() {
             <p>
               It's first time that we are offering such world class facilities
               at very affordable prices. it will be cheaper than you snacks.so
-              grap the offer
+              grap the offer :smile
             </p>
           </div>
         </div>

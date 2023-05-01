@@ -30,9 +30,8 @@ function Footer() {
                 <p> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </p>
                 <p> <i class="fas fa-map"></i> mumbai, india - 400104 </p>
                 <div class="share">
-                    <a href="#" class="fab fa-facebook-f">facebook</a>
+                    <a href="#" class="fab fa-facebook-f">:smile:</a>
                     <a href="#" class="fab fa-twitter">twitter</a>
-                    <a href="#" class="fab fa-linkedin">linkedin</a>
                     <a href="#" class="fab fa-pinterest">whatsapp</a>
                 </div>
             </div>

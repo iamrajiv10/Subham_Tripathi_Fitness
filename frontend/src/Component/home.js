@@ -12,11 +12,11 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 import Footer from "./footer";
-import home from './image/stf3.jpg'
+import home from './image/stf4.jpg'
 import home1 from './image/stf1.jpg'
 import home2 from './image/home-bg-2.jpg'
 import home3 from './image/home-bg-3.jpg'
-
+import About from './about';
 import Navibar from './navbar';
 
 function Home() {
@@ -38,14 +38,16 @@ function Home() {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><img width="100%" src={home}/></SwiperSlide>
-                    <SwiperSlide><img width="100%" src={home1}/></SwiperSlide>
-                    <SwiperSlide><img width="100%" src={home2}/> </SwiperSlide>
-                    <SwiperSlide><img width="100%" src={home3}/></SwiperSlide>
+                    <SwiperSlide><img width="100%"  src={home} alt=''/></SwiperSlide>
+                    <SwiperSlide><img width="100%" src={home1} alt=''/></SwiperSlide>
+                    <SwiperSlide><img width="100%" src={home2} alt=''/> </SwiperSlide>
+                    <SwiperSlide><img width="100%" src={home3} alt=''/></SwiperSlide>
                     
                 </Swiper>
             </div>
+            <About/>
             <Footer />
+            
         </div>
     )
 }

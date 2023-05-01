@@ -9,6 +9,7 @@ import Details from './Component/form';
 import Runner from './Component/trainer';
 import Protected from './Component/protected';
 import Feed from './Component/feed';
+import Admin from './Component/admin'
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <Route path='/runner' element={<Runner />} />
       <Route path='/feed' element={<Feed />} />
       <Route path='/' element={<About/>}/>
-
+      <Route path='/admin' element={<Admin/>}/>
       </Routes>
       </BrowserRouter>
     
