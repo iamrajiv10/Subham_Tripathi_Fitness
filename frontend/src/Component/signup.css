@@ -79,7 +79,25 @@
     border: 1px solid #494747;
     border-radius: 1px;
     font-size: 16px;
-    width: 30%;
+    width: 60%;
+  }
+
+  .left input[type="email"]{
+    padding: 4px;
+    margin-top: 5px;
+    border: 1px solid #494747;
+    border-radius: 1px;
+    font-size: 16px;
+    width: 60%;
+  }
+
+  .left input[type="password"]{
+    padding: 4px;
+    margin-top: 5px;
+    border: 1px solid #494747;
+    border-radius: 1px;
+    font-size: 16px;
+    width: 60%;
   }
 
 .form_container {

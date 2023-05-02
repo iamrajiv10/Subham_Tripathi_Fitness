@@ -10,6 +10,7 @@ import Runner from './Component/trainer';
 import Protected from './Component/protected';
 import Feed from './Component/feed';
 import Admin from './Component/admin'
+import About1 from './Component/about1';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <BrowserRouter>
       <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/about" element={<About1 />} />
       <Route path="/login" element={<Login />} />
       <Route path='/signup' element={<Signup />} />
       <Route path='/details' element={<Protected Component={Details} />} />

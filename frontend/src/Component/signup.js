@@ -61,7 +61,7 @@ function Signup() {
 
                     <h1>Welcome to " S<span>T</span>F "</h1><br/>
                     <label>FullName</label>
-                    <input type="text" value={fullName} onChange={(e)=>{setFullName(e.target.value)}} name="fullName"/>
+                    <input type="text" value={fullName} onChange={(e)=>{setFullName(e.target.value)}} name="fullName"  required/>
                     {error && !fullName && (
           <span className="invalid-input">Enter Your Name</span>
         )}

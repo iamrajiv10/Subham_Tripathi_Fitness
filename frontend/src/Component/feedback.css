@@ -57,16 +57,28 @@
 }
 
 
-
-
-
 .rightfeed{
     align-items: center;
 padding-left: 2%;
 }
 
 
+@media screen {
 
+  .feedback{
+    display: block;
+  }
+
+  .leftfeed{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .rightfeed button{
+    margin-top: 5px;
+    width: 90%;
+  }
+}
 
 
 

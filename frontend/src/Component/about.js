@@ -1,15 +1,13 @@
 import "./about.css";
 import priceimg from "./image/priceimg.jpg";
-import youtubeimg from "./image/youtube.jpg";
-import Feed from "./feedback";
-import Navibar from "./navbar";
+import Feedb from "./feedback";
 import Footer from "./footer";
 
 function About() {
   return (
     <div className="full">
       <div className="navibar">
-        <Navibar />
+    
       </div>
       <div className="allabout">
         <u>
@@ -157,8 +155,6 @@ function About() {
         <br /><hr/>
         <div className="socialvid">
           <iframe
-            width="500"
-            height="315"
             src="https://www.youtube.com/embed/qpJ5NJpBVDg"
             title="YouTube video player"
             frameborder="0"
@@ -166,8 +162,6 @@ function About() {
             allowfullscreen
           ></iframe>
           <iframe
-            width="500"
-            height="315"
             src="https://www.youtube.com/embed/zx-kG93G1I4"
             title="YouTube video player"
             frameborder="0"
@@ -176,7 +170,7 @@ function About() {
           ></iframe>
         </div>
         <br/><hr/>
-        <Feed /> <br />
+        <Feedb /> <br />
         <Footer />
       </div>
     </div>
