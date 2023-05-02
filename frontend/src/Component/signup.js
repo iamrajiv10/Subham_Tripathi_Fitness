@@ -61,16 +61,16 @@ function Signup() {
 
                     <h1>Welcome to " S<span>T</span>F "</h1><br/>
                     <label>FullName</label>
-                    <input type="text" value={fullName} onChange={(e)=>{setFullName(e.target.value)}} name="fullName"  required/>
+                    <input type="text" value={fullName} onChange={(e)=>{setFullName(e.target.value)}} name="fullName" placeholder="Full Name" />
                     {error && !fullName && (
           <span className="invalid-input">Enter Your Name</span>
         )}
-                    <label>gender</label>
-                    <input type="text" value={gender}  onChange={(e)=>{setGender(e.target.value)}} name="gender" />
-                    <label>email</label>
-                    <input type="email" value={email}  onChange={(e)=>{setEmail(e.target.value)}} name="email"/>
-                    <label>password</label>
-                    <input type="password" value={password} onChange={(e)=>{setPassword(e.target.value)}} name="password"/><br/>
+                    <label>Gender</label>
+                    <input type="text" value={gender}  onChange={(e)=>{setGender(e.target.value)}} name="gender" placeholder="Gender" />
+                    <label>Email</label>
+                    <input type="email" value={email}  onChange={(e)=>{setEmail(e.target.value)}} name="email" placeholder="Email Id"/>
+                    <label>Password</label>
+                    <input type="password" value={password} onChange={(e)=>{setPassword(e.target.value)}} name="password" placeholder="Password"/><br/>
 
                     <Button variant="dark" onClick={()=>{saveUser(); Direct();}} >Submit</Button>
 

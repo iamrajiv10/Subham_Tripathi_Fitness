@@ -80,6 +80,7 @@
     border-radius: 1px;
     font-size: 16px;
     width: 60%;
+    border-radius: 5px;
   }
 
   .left input[type="email"]{
@@ -89,6 +90,7 @@
     border-radius: 1px;
     font-size: 16px;
     width: 60%;
+    border-radius: 5px;
   }
 
   .left input[type="password"]{
@@ -98,6 +100,7 @@
     border-radius: 1px;
     font-size: 16px;
     width: 60%;
+    border-radius: 5px;
   }
 
 .form_container {
@@ -111,7 +114,7 @@
     margin-top: 0;
 }
 
-.input {
+/* .input {
     outline: none;
     border: none;
     width: 150px;
@@ -121,4 +124,4 @@
     margin: 5px 0;
     font-size: 14px;
     height: 70px;
-}
+} */
