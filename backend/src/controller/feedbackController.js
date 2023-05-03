@@ -1,15 +1,4 @@
-// const feedback = require("../model/feedbackModel");
 
-// const feeddata = async(req,res) => {
-//     try{
-//         let create = await feedback.create(req.body)
-//         return res.send({status:true, data:create})
-//     }catch(err) {
-//         return res.status(500).send({ status: false, message: err.message });
-//     }
-// }
-
-// module.export = {feeddata}
 
 const feed = require("../model/feedbackModel")
 

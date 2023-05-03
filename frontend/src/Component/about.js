@@ -52,7 +52,7 @@ function About() {
               </a>
             </h2>
             <img
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "85%" }}
               src="https://uploads-ssl.webflow.com/635a525d130ad943a800543b/6387621eff2304c32561a179_Fidelity%20Asset%20-%20Medical%20Weight%20Loss%20Promo.webp"
            alt="#" />
           </div>
@@ -63,7 +63,7 @@ function About() {
               </a>
             </h2>
             <img
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "85%" }}
               src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/09/20/11/image1.jpg?quality=75&width=640&auto=webp"
            alt="#" />
           </div>
@@ -74,7 +74,7 @@ function About() {
               </a>
             </h2>
             <img
-              style={{ width: "100%" }}
+              style={{ width: "100%", height: "85%" }}
               src="https://img.mensxp.com/media/content/2020/Sep/iStock-1193925611_5f548471dd353.jpeg"
            alt="#" />
           </div>

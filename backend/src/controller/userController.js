@@ -6,6 +6,7 @@ const register = async (req, res)=>{
     res.setHeader('Access-Control-Allow-Origin','*')
     try{
     let create =  await user.create(req.body)
+
     return res.send({status:true, data: create})
     }
     catch (err) {
