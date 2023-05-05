@@ -1,10 +1,15 @@
+
+.clientFeed{
+  background-color:lightgray;
+}
 .feedback{
-    background-color: rgb(206, 208, 207);
+    background-color:lightgray;
     display: flex;
     align-items: center;
-    padding-left: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
     height: 300px;
-}
+}  
 
 
 .leftfeed{
@@ -12,6 +17,7 @@
     display: flex;
     width: 90%;
     height: 90%;
+   
 }
 
 

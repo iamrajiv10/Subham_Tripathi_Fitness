@@ -24,7 +24,7 @@ function Feedb() {
 
 
     return (
-        <div >
+        <div  className="clientFeed">
           <h1>What our Clients say</h1>
             <div className="feedback">
                 <div className="leftfeed" >
