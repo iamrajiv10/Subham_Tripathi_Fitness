@@ -4,21 +4,22 @@ const AuthContext = createContext();
 const AuthProvider = ({ children }) => {
   const [auth, setAuth] = useState({
     user: null,
+    fullName:""
   });
 
-  useEffect(() => {
-    const data = localStorage.getItem("user");
+  useEffect( () => {
+    const data =  localStorage.getItem("user");
+    console.warn(data);
     if (data) {
       const parseData = JSON.parse(data);
-      console.warn(parseData.fullName);
-
-
-      setAuth({
+     
+      setAuth({ 
         ...auth,
-        fullName: parseData.fullName,
+        fullName: parseData.data.data.fullName,
       });
     }
   }, []);
+
   return (
     <AuthContext.Provider value={[auth, setAuth]}>
       {children}
