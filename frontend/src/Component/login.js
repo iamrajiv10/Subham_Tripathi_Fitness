@@ -4,6 +4,7 @@ import "./signup.css";
 import { useState } from "react";
 import Navibar from "./navbar";
 import { useAuth } from "./context/context";
+import axios from "axios";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -13,22 +14,21 @@ function Login() {
   const [auth, setAuth] = useAuth();
 
   const checklogin = async () => {
-    let result = await fetch("http://localhost:4000/loginCheck", {
-      method: "POST",
-      body: JSON.stringify({ email, password }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    result = await result.json();
-    console.warn(result);
-    if (result.data.fullName) {
+
+    let result = await axios.post("http://localhost:4000/loginCheck",
+      {
+        email,
+        password,
+      }
+    ); 
+
+    if (result.data.data.fullName) {
       alert("Login Successfull !");
       setAuth({
         ...auth,
-        fullName: result.data.fullName,
+        fullName: result.data.data.fullName,
       });
-      localStorage.setItem('"user', JSON.stringify(result));
+      localStorage.setItem('user', JSON.stringify(result));
       navigate("/details");
     } else {
       alert("please enter correct data");
