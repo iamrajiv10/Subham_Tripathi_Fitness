@@ -30,7 +30,8 @@ a:link {
     min-height: 250px;
 }
 .block{
-    background-color: rgb(221, 157, 157);
+    background-color: rgb(84, 80, 80);
+    color: beige;
     border-radius: 3%;
     align-items: center;
     justify-content: center;
@@ -106,21 +107,26 @@ a:link {
     display: flex;
     width: 100%;
 }
-iframe{
+.socialvid iframe{
+    padding: 5px;
     width: 50%;
     height: 400px;
     margin-left: 30px;
     margin-right: 30px;
+    border: rgb(22, 23, 23);
+    border: thick;
+    border-style: dashed;
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media only screen and (max-width: 600px) {
 
     .about{
         display: block;
     }
 
     .block{
-        background-color: rgb(221, 157, 157);
+        background-color: rgb(84, 80, 80);
+        color: beige;
         border-radius: 3%;
         align-items: center;
         justify-content: center;
@@ -153,6 +159,15 @@ iframe{
 
     .socialvid{
         display: block;
-        width: 100%;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+    .socialvid iframe{
+        width: 90%;
+        height: 70%;
+        margin: 5px 0px;
+        border: thick;
+        border-style:groove; 
     }
 }

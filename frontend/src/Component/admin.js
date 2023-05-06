@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import {Button} from 'react-bootstrap'
-import './signup.css'
+import './admin.css'
 import { useState } from 'react';
 import Navibar from './navbar';
 

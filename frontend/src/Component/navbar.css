@@ -45,8 +45,11 @@
   }
   
   .navbar a:hover {
-    background-color: #f05959;
+    background-color: #999696;
     color: #333;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    transform: scale(1.1);
   }
 
   
