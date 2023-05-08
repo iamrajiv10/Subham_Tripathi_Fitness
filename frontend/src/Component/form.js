@@ -110,8 +110,7 @@ function Details() {
                             Right Side:
                             <input type="file" />
                         </label><br />
-                        <Button variant="secondary" onClick={Saveform} >submit</Button>
-
+                        <Button variant="dark" onClick={Saveform} >submit</Button>
                     </form>
                 </div>
 

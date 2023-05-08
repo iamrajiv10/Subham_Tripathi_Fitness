@@ -1,10 +1,8 @@
 .formbase{
     background-image: url(https://lmimirror3pvr.azureedge.net/static/media/18461/c6c04064-686b-4583-a9c8-264bee129ccc/training-load-960x540.jpg);
-    /* background-clip: border-box; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* background-repeat: no-repeat; */
     height: 100%;
   
   }
@@ -50,13 +48,15 @@
       padding: 4px;
       margin-top: 5px;
       border: 1px solid #494747;
-      border-radius: 1px;
+      border-radius: 5px;
       font-size: 16px;
       width: 80%;
     }
     input[type="file"]{
       display: flex;
+      border-radius: 5px;
     }
+
     .eklineme{
       flex-direction: column;
       text-align: left;
@@ -65,8 +65,7 @@
       padding:4px;
       margin-top: 5px;
       border: 1px solid #494747;
-      border-radius: 1px;
+      border-radius: 5px;
       font-size: 16px;
       width: 70%;
     }
-  

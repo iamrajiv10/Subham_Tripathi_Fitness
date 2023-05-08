@@ -47,7 +47,7 @@ function AdminLogin() {
         </div>
         <div className="signup_container">
             
-                <div className="left">
+                <div className="backgrnd">
                     
                     <h1>Admin Login</h1><br/>
                     <label>Email</label>

@@ -137,9 +137,9 @@ a:link {
     }
     
     .block:hover {
-        background-color: rgb(19, 18, 18); /* change background color on hover */
-        cursor: pointer; /* change cursor to indicate clickable element */
-        transform: scale(2.2); /* scale the element up on hover */
+        background-color: rgb(19, 18, 18); 
+        cursor: pointer; 
+        transform: scale(2.2);
     }
     
     .services{
